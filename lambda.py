@@ -76,7 +76,7 @@ def lambda_handler(event, context):
         result = http.request('PUT', url, body=encoded_data, headers = HEADERS)
         result = json.loads(result.data)
         print(result)
-        logger.debug('Completed working!')
+        logger.debug('Completed working!!')
         
         return {
         'statusCode': 200,
