@@ -85,7 +85,7 @@ def lambda_handler(event, context):
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'OPTIONS,PUT'
         },
-        'body': json.dumps('Hello from Lambda!')
+        'body': json.dumps('Hello from Lambda!!!!!!!')
     }
     except Exception as e:
         print(e)
